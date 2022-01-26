@@ -3,7 +3,7 @@ package com.example.dagger2basicexample.ui.main
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.dagger2basicexample.R
-import com.example.dagger2basicexample.di.DaggerSmartPhoneComponent
+import com.example.dagger2basicexample.di.component.DaggerSmartPhoneComponent
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
